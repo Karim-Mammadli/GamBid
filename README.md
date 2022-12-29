@@ -1,1 +1,3 @@
 # GamBid
+
+Gamba + Bidding

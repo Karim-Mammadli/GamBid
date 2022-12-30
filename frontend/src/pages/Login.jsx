@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Register() {
+export default function Login() {
   const [userData, setUserData] = useState({
     email: "",
     password: "",
@@ -17,7 +17,7 @@ export default function Register() {
         <div className="w-full mt-36 max-w-md space-y-8">
           <div>
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-              Welcome to GamBid
+              Welcome to GamBid(log in)
             </h2>
           </div>
           <form

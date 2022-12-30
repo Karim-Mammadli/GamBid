@@ -17,7 +17,7 @@ export default function Login() {
         <div className="w-full mt-36 max-w-md space-y-8">
           <div>
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-              Welcome to GamBid(log in)
+              Welcome to GamBid
             </h2>
           </div>
           <form
@@ -75,10 +75,10 @@ export default function Login() {
             <p className="mt-2 text-center text-sm text-gray-600">
               {/* Enter your Email to recover your password{" "} */}
               <a
-                href="/login"
+                href="/register"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
-                Already have GamBid account?
+                Don't have an account?
               </a>
             </p>
 
@@ -116,7 +116,7 @@ export default function Login() {
                 {/* <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                     <LockClosedIcon className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" aria-hidden="true" />
                   </span> */}
-                Register
+                Login
               </button>
             </div>
           </form>

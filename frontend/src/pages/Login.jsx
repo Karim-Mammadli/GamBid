@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 export default function Login() {
   const [userData, setUserData] = useState({
@@ -9,6 +10,17 @@ export default function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(userData);
+    axios
+      .post("http://localhost:8080/login", {
+        email: userData.email,
+        password: userData.password,
+      })
+      .then((res) => {
+        console.log("user logged in");
+      })
+      .catch((error) => {
+        console.log("user not logged in");
+      });
   };
 
   return (

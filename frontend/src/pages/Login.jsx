@@ -112,7 +112,7 @@ export default function Login() {
 
               <div className="text-sm">
                 <a
-                  href="/resetPassword"
+                  href="/forgotPassword"
                   className="font-medium text-green-600 hover:text-green-500"
                 >
                   Forgot your password?

@@ -279,8 +279,12 @@ export default function PageNotFound() {
           404
         </text>
         <text transform="translate(659.5 213.994)" class="st8 st10" font-size="24.025">
-        Page not found.
+        Page not found...
         </text>
+        {/* One can uncmment this if they want */}
+        {/* <text transform="translate(555.5 283.994)" class="st8 st10" font-size="24.025">
+        chill train
+        </text> */}
       </g>
       <g id="ladders">
         <g id="ladder-f">

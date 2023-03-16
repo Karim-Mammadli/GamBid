@@ -16,7 +16,7 @@ The following technologies were used to build GamBid:
 
 
 # Features
-- GamBid offers the following features:
+GamBid offers the following features:
 
 - Auction house: Users can bid on items in an auction house, where the highest bidder at the end of the auction wins the item.
 
@@ -27,3 +27,7 @@ The following technologies were used to build GamBid:
 - Payment integration: GamBid integrates with a payment gateway to allow users to securely make payments for items won or purchased.
 
 - Admin panel: The admin panel allows the site administrator to manage users, items, and auctions.
+
+
+# Deployment
+GamBid is deployed using Docker and Kubernetes on Google Cloud Platform (GCP). The application is containerized using Docker, and Kubernetes is used for orchestration and scaling. The deployment process is managed using Git, allowing for easy version control and collaboration.

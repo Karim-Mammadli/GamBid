@@ -15,7 +15,7 @@ The following technologies were used to build GamBid:
 - Git
 
 
-## Features
+# Features
 - GamBid offers the following features:
 
 - Auction house: Users can bid on items in an auction house, where the highest bidder at the end of the auction wins the item.
